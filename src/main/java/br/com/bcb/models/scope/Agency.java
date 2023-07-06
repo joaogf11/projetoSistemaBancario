@@ -1,6 +1,6 @@
 package br.com.bcb.models.scope;
 
-public class Agency {
+public class Agency extends Bank {
     private String city;
 
     public String getCity() {

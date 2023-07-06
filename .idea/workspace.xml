@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b8247a2-8f44-4d4b-a935-86a0053322e6" name="Changes" comment="ProjetoBCB">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bcb/utils/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bcb/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bcb/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bcb/models/scope/Agency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bcb/models/scope/Agency.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,6 +108,10 @@
       <workItem from="1688411580787" duration="2736000" />
       <workItem from="1688469546071" duration="2250000" />
       <workItem from="1688479820612" duration="2716000" />
+      <workItem from="1688556228276" duration="2344000" />
+      <workItem from="1688561132610" duration="2140000" />
+      <workItem from="1688571090501" duration="952000" />
+      <workItem from="1688641707831" duration="2830000" />
     </task>
     <task id="LOCAL-00001" summary="ProjetoBCB">
       <option name="closed" value="true" />
