@@ -75,29 +75,33 @@ public class Utils {
                     scanner.nextLine();
                     user.setBalance(balance);
 
-
                     System.out.print("Digite a senha da conta: ");
                     int accountPassword = scanner.nextInt();
+                    scanner.nextLine();
                     user.setAccountPassword(accountPassword);
 
                     scanner.nextLine();
 
                     System.out.print("Digite a senha do ATP: ");
                     int atpPassword = scanner.nextInt();
+                    scanner.nextLine();
                     user.setAtpPassword(atpPassword);
 
                     scanner.nextLine();
 
                     System.out.print("Digite a senha do cartão: ");
                     int cardPassword = scanner.nextInt();
+                    scanner.nextLine();
                     user.setCardPassword(cardPassword);
-
 
                     System.out.print("Digite a data de nascimento (dd/MM/yyyy): ");
                     String bornDateStr = scanner.nextLine();
                     user.setBornDate(bornDateStr);
                     Instant bornDateUnixTime = convertBornDateToInstant(bornDateStr);
                     user.setBornDateUnixTime(bornDateUnixTime);
+
+// ...
+
 
                     System.out.print("Digite o gênero: ");
                     String gender = scanner.nextLine();

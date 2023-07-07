@@ -7,6 +7,6 @@ public class ManipulationFile {
     public void connect(){
         MongoClient connect = new MongoClient("localhost", 27017);
         MongoDatabase dataBase = connect.getDatabase("SistemaBCB");
-        System.out.println("Conectado com Sucesso!");
+        System.out.println("Conexão bem sucedida! ");
     }
 }
