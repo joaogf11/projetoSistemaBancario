@@ -1,13 +1,12 @@
 package br.com.bcb.models.scope;
 
 import java.time.Instant;
-import java.util.Date;
 
 public class User {
     private double balance;
     private int accountPassword;
     private String name;
-    private Date bornDate;
+    private String bornDate;
     private Instant bornDateUnixTime;
     private String cpf;
     private int cardPassword;
@@ -40,11 +39,11 @@ public class User {
         this.name = name;
     }
 
-    public Date getBornDate() {
+    public String getBornDate() {
         return bornDate;
     }
 
-    public void setBornDate(Date bornDate) {
+    public void setBornDate(String bornDate) {
         this.bornDate = bornDate;
     }
 

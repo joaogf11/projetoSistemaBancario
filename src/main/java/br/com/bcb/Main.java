@@ -1,13 +1,16 @@
 package br.com.bcb;
 
-import com.mongodb.MongoClient;
-import com.mongodb.client.MongoDatabase;
+import br.com.bcb.utils.ManipulationFile;
+import br.com.bcb.utils.Utils;
 
 public class Main {
     public static void main(String[] args) {
-        MongoClient connect = new MongoClient("localhost", 27017);
-        MongoDatabase dataBase = connect.getDatabase("SistemaBCB");
-        System.out.println("Conectado com Sucesso!");
-    }
+        Utils util = new Utils();
+        ManipulationFile file = new ManipulationFile();
 
+        System.out.println("Bem-vindo ao Banco Central!");
+
+        util.optionSelect();
+    }
 }
+
