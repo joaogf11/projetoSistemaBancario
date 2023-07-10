@@ -12,7 +12,7 @@ import java.util.Scanner;
 import java.util.UUID;
 
 public class Utils {
-    private findPayment findPayments = new findPayment();
+    private final findPayment findPayments = new findPayment();
     public void linesRepeat() {
         System.out.println("=".repeat(50));
     }
